@@ -90,3 +90,32 @@
     font-weight: bold;
     color: #FFFFFF;
 }
+
+/* section 4 style */
+
+.hero-4{
+    background-image: repeating-linear-gradient(rgba(255, 0, 0, 0.45) 0%, rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    /* background-color: red; */
+    margin: 120px 140px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.hero-4container{
+    font-size: 28px;
+    font-weight: 700px;
+    padding: 100px;
+}
+
+.btn-color{
+    color: rgba(255, 0, 0, 1);
+}
+
+.btn-primary {
+    background-color: red;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
