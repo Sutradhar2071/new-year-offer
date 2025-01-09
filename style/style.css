@@ -62,13 +62,19 @@
     height: 600px;
     /* background-image:repeating-radial-gradient( left right, rgba(7, 2, 17, 1) 100%, rgba(7, 2, 17, 0) 0%,); */
     /* background-image: linear-gradient(to left right, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%); */
-    background-image: repeating-linear-gradient(rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
+    /* background-image: repeating-linear-gradient(rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%); */
+    background: linear-gradient(to right, #000000, #ffffff);
     border-radius: 10px;
     margin: 120px 140px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    
 }
 .hero-3-container{
     padding: 126px 126px 94px 142px;
@@ -118,4 +124,145 @@
     border-radius: 8px;
     font-weight: bold;
     font-size: 20px;
+}
+
+/* hero 5 styless */
+
+.hero-5{
+    width: 1320px;
+    height: 463px;
+    /* background-color: aqua; */
+    margin: 120px 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-5-container{
+    /* text-align: center;
+    padding: 10px 20px; */
+    /* gap: 15px; */
+    width: 393px;
+    height: 255px;
+}
+
+.hero-5-greeting{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500px;
+}
+
+.hero-5-title{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900px;
+}
+
+.hero-5-sub-title{
+    font-size: 20px;
+    color: #070211;
+}
+
+.hero-5-circle{
+    width: 450px;
+    height: 450px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.hero-5-1-greeting{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+
+}
+
+.hero-5-abba{
+    gap: 16px;
+}
+
+.hero-5-text{
+    text-align:justify;
+    gap: 16px;
+}
+
+.hero-5-pic{
+    font-size: 20px;
+    width: 140px;
+    height: 140px;
+}
+
+.hero-5-sub-title-2{
+    width: 276px;
+    height: 170px;
+}
+
+/* section 6 style */
+
+.hero-6{
+    width: 1320px;
+    height: 986px;
+    /* background-color: aqua; */
+    margin: 120px 140px;
+}
+
+.hero-6-container{
+    text-align: center;
+    padding: 20px 150px;
+}
+
+.hero-6-great{
+    font-size: 24px;
+    font-weight: 600;
+    color: #070211;
+}
+
+.hero-6-btn{
+    color: #FF0000;
+}
+
+.hero-6-sub-title{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-6-title{
+    font-size: 72px;
+    font-weight: 900px;
+
+}
+
+.partho{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* ektar upor arekta picture add korte amn korte hobe */
+.ringku{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.hero-6-2-pic{
+    position: absolute;
+    width: 796px;
+    height: 662px;
+    /* object-fit: cover; */
+}
+
+.hero-6-1-pic{
+    position: absolute;
+    width: 1320px;
+    height: 229px;
+    /* top: 100px;
+    left: 100px; */
+    top: 500px;
+}
+
+.hero-6-3-pic{
+    width: 305px;
+    height: 305px;
 }
