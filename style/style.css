@@ -269,8 +269,23 @@
 
 /* section 7 style */
 
-/* .hero-7 {
+.hero-7 {
     width: 1320px;
     height: 1163px;
-    background-color: #FF0000;
-} */
+    /* background-color: #FF0000; */
+    margin: 200px 140px;
+    text-align:justify;
+}
+
+.hero-7-art{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.hero-7-art-2{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #070211;
+}
+
