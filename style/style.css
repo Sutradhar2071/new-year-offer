@@ -320,3 +320,37 @@ background-color: #FF0000;
 color:#FFFFFF;
 border-radius: 0px 10px 10px 0px;
 }
+/* footer work */
+.shanto{
+    width: 1600px;
+    height: 609px;
+    background-color: #070211;
+}
+
+.shanto-1{
+    display: flex;
+    justify-content: space-around;
+}
+.shohag{
+    font-size: 24px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.shohag2{
+    font-size: 24px;
+    font-weight: 600;
+    color:#FFFFFF;
+}
+
+.shanto-2{
+    text-align: center;
+    padding: 150px 100px;
+}
+
+.shanto-3{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+}
