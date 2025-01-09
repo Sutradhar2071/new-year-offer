@@ -289,3 +289,34 @@
     color: #070211;
 }
 
+/* section 8 style */
+
+.hero-8{
+    width: 1320px;
+    height: 616px;
+    background-color:rgba(254, 10, 10, 0.05);
+    margin: 120px 140px;
+}
+
+.div-8{
+    text-align: center;
+}
+
+.pic-art{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.ringku-art{
+    text-align: center;
+}
+
+.ayat{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.minna{
+background-color: #FF0000;
+color:#FFFFFF;
+border-radius: 0px 10px 10px 0px;
+}
